@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Bookshop & Stationers</title>
 </head>
+
 <body>
     <h1>📚Apex Bookshop & Stationers</h1>
     <p>Welcome to our school bookshop.Use the quick links below to jump straight to your sections:</p>
     <br>
 
     <ul>
-    <li><a href="#story books Section"> Story Books Section</a></li>
-    <li><a href="#Textbokks Section">Textbooks Section</a></li>
-    <li><a href="#Place an Order">Place an Order</a></li>
+        <li><a href="Story Books Section"> Story Books Section</a></li>
+        <li><a href="#Textbokks Section">Textbooks Section</a></li>
+        <li><a href="#Place an Order">Place an Order</a></li>
     </ul>
     <hr>
     <h2>📖Story Books Selection</h2>
-    <table  border="1" cellpadding="15" cellspacing="0"> 
+    <table border="1" cellpadding="15" cellspacing="0">
         <tr>
             <th>Book Cover</th>
             <th>Book Title & Details</th>
@@ -26,55 +28,91 @@
         </tr>
 
         <tr>
-            <td> <img src="Assets\Images\75003.jpg" alt="the secret land cover page"  width="100" ></td>
-            <td><h3>The Secret Island</h3>
-            Athour:Enid Blyton<br>
-        <p>An exciting adventure story about four childdren spending their holidays on a hidden island.</p></td>
-        <td>Rs.850.00</td>
-        <td><mark>In Stock</mark></td>
+            <td> <img src="Assets\Images\75003.jpg" alt="the secret land cover page" width="100"></td>
+            <td>
+                <h3>The Secret Island</h3>
+                Athour:Enid Blyton<br>
+                <p>An exciting adventure story about four childdren spending their holidays on a hidden island.</p>
+            </td>
+            <td>Rs.850.00</td>
+            <td><mark>In Stock</mark></td>
         </tr>
 
         <tr>
             <td><img src="Assets\Images\images (2).jpg" alt="Madol doova cover page" width="100"></td>
-            <td><h3>Madol Doova</h3>
-            Author:Martin Wickramasinghe<br><br>
-            A classic Sinhalaese novel translated into English,showcasing the lives of teenage boys on an isolated island.
-            <br></td>
+            <td>
+                <h3>Madol Doova</h3>
+                Author:Martin Wickramasinghe<br><br>
+                A classic Sinhalaese novel translated into English,showcasing the lives of teenage boys on an isolated
+                island.
+                <br>
+            </td>
             <td>Rs.600.00</td>
             <td><mark>In Stock</mark></td>
         </tr>
-</table>
+    </table>
 
 
-<hr>
-<h2>📝School Textbooks</h2>
-<table border="1" cellpadding="15" cellspacing="0">
-    <tr>
-      <b></b>  <th>Subject</th>
-        <th>Grade</th>
-        <th>Medium</th>
-        <th>Price</th>
-        <th> </th><b></b>
-    </tr>
-    <tr>
-        <td>Infromation & Communication Technology(ICT)</td>
-        <td>Grade 10/11</td>
-        <td>English Medium</td>
-        <td>Rs.450.00</td>
-        <td>Available</td>
-    </tr>
-    <tr>
-        <td>Mathematics</td>
-        <td>Grade 11</td>
-        <td>English Medium</td>
-        <td>Rs.520.00</td>
-        <td><strike>Out Of Stock</strike></td>
-    </tr>
-</table>
+    <hr>
+    <h2>📝School Textbooks</h2>
+    <table border="1" cellpadding="15" cellspacing="0">
+        <tr>
+            <b></b>
+            <th>Subject</th>
+            <th>Grade</th>
+            <th>Medium</th>
+            <th>Price</th>
+            <th> </th><b></b>
+        </tr>
+        <tr>
+            <td>Infromation & Communication Technology(ICT)</td>
+            <td>Grade 10/11</td>
+            <td>English Medium</td>
+            <td>Rs.450.00</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>Grade 11</td>
+            <td>English Medium</td>
+            <td>Rs.520.00</td>
+            <td><strike>Out Of Stock</strike></td>
+        </tr>
+    </table>
 
-<hr>
+    <hr>
 
-<h2></h2>
+    <h2>🛒Quick Order Reservation</h2>
+    <p>Fill out form to reserve your books before coming to the store</p>
+
+    <fieldset>
+        <legend>Order Details</legend>
+        <form>
+            <label for="name"> Student Admission No:</label><br>
+            <input type="text" placeholder="e.g.,ST1234" id="name" name="name"><br><br>
+
+            <label for="name">Select Book to Reserve:</label><br>
+            <select id="name" name="name">
+                <option value="book1">The Secret Island (Rs.850.00)</option>
+                <option value="book2">Madol Doova (Rs.520.00)</option>
+            </select>
+
+            <br><br>
+
+            <label for="date">Preferred Collection Date:</label><br>
+            <input type="date" id="date" name="date">
+            <br><br>
+
+            <label for="name">Special Notes/Instructions:</label><br>
+            <textarea id="comment" rows="4" cols="60" placeholder="Any specific requirements..."></textarea><br>
+            
+            <br>
+            <input type="Submit" value="Submit Reservation">
+            <input type="Submit" value="Reset Form">
+    </form>
+    </fieldset>
+    <br>
+    <p>©️2026 Apex School Management System.</p>
 
 
 
@@ -86,4 +124,5 @@
 
 
 </body>
+
 </html>
